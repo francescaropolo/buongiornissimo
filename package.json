@@ -1,6 +1,7 @@
 {
   "name": "buongiornissimo",
   "version": "0.1.0",
+  "homepage": "https://francescaropolo.github.io/buongiornissimo/",
   "private": true,
   "dependencies": {
     "@giphy/js-fetch-api": "^4.4.0",

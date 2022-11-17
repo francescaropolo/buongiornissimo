@@ -8,12 +8,16 @@ import Landing from './components/Landing';
 import styled from 'styled-components';
 
 const Generation = styled.section`
-  height: 80vh;
-  padding: 50px 100px;
+  min-height: 80vh;
+  padding: 50px 40px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   background-color: #fffcf2;
+  @media screen and (min-width: 720px) {
+    min-height: 70vh;
+    padding: 50px 100px;
+  }
 `;
 const Description = styled.p``;
 const Cta = styled.button`
@@ -39,6 +43,11 @@ const Share = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+`;
+const Footer = styled.footer`
+  padding: 10px;
+  text-align: center;
+  font-size: 12px;
 `;
 
 function App() {
@@ -98,6 +107,9 @@ function App() {
           </Wrapper>}
         </div>
       </Generation>
+      <Footer>
+        Fatto con 💛 da Francesca Ropolo
+      </Footer>
     </div>
   );
 }
