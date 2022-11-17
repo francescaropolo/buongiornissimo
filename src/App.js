@@ -53,7 +53,7 @@ const Footer = styled.footer`
 function App() {
   const [gifGenerated, setGifGenerated] = useState(null);
   const gf = new GiphyFetch(process.env.REACT_APP_GIF_KEY);
-  const phrase = openings[Math.floor(Math.random() * tags.length)];
+  const phrase = openings[Math.floor(Math.random() * openings.length)];
 
   const handleGenerateGIF = async (ev) => {
     if (gifGenerated) {

@@ -7,7 +7,7 @@ import styled from 'styled-components';
 import { useState } from 'react';
 const Container = styled.section`
     height: 90vh;
-    padding: 50px 40px;
+    padding: 50px 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
