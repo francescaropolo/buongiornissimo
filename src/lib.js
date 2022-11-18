@@ -51,7 +51,8 @@ const tags = [
     "yay",
     "himym",
     "big bang theory",
-    "mr bean"
+    "mr bean",
+    "corgi"
 ]
 
 export {openings, tags}
